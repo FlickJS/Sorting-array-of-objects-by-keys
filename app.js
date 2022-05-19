@@ -18,4 +18,4 @@ tab.sort(function(a, b) {
   }
 });
 
-for (let i = 0; i < tab.length; i++) console.log(tab[i].b);
+console.table(tab)
