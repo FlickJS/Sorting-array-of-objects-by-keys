@@ -7,18 +7,15 @@ let tab = [
 ];
 
 tab.sort(function(a, b) {
-  if(a.a == b.a){
-    if(a.b == b.b){
-      return a.c - b.c;
-    }else{
-      return a.b - b.b;
-    }
-  }else{
-    return a.a - b.a;
+  if (a.a == b.a) {
+      if (a.b == b.b) {
+          return a.c - b.c;
+      } else {
+          return a.b - b.b;
+      }
+  } else {
+      return a.a - b.a;
   }
 });
 
-  for(let i=0;i<tab.length;i++){
-    console.log(tab[i].b);
-
-};
+for (let i = 0; i < tab.length; i++) console.log(tab[i].b);
